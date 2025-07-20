@@ -1,0 +1,123 @@
+/*tb*/
+.pc {
+  display: none;
+}
+.tb {
+  display: block;
+}
+header {
+  height: 7rem;
+  padding: 0 45px 0 51px;
+}
+header button {
+  width: 3.2rem;
+  height: 3.2rem;
+  background: url(../img/sub-menu.057dd32b.svg) no-repeat;
+}
+/*main*/
+.video_txt {
+  left: 50px;
+}
+.video_txt h2 span {
+  display: block;
+}
+.video_txt p span {
+  display: block;
+  font-size: 14px;
+}
+.weather {
+  left: 50px;
+}
+/*new_content*/
+.new_content {
+  max-width: 1279px;
+  margin: auto;
+  padding: 100px 33px 50px;
+}
+.new {
+  width: 100%;
+  gap: 50px;
+  text-align: center;
+  overflow: hidden;
+}
+.new > li {
+  width: 100%;
+  height: 100%;
+}
+.new > li a {
+  display: block;
+}
+.new > li a::before {
+  content: "";
+  display: block;
+  width: 48rem;
+  height: 50.2rem;
+  background: url(../img/20250521112014918.jpg) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.new > li:nth-child(2) a::before {
+  background: url(../img/main_dish.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.new > li:nth-child(3) a::before {
+  background: url(../img/20250502090602271.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.depth li {
+  width: 100%;
+}
+.depth h2 {
+  font-size: 1.95rem;
+  line-height: 3.1rem;
+}
+.depth .date {
+  padding-top: 8px;
+  font-size: 1.46rem;
+  color: #999;
+}
+/*guid*/
+.guid {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1279px;
+  padding: 55px 0;
+  gap: 50px;
+}
+.guid section {
+  padding: 0 80px;
+  width: 100%;
+}
+.more {
+  position: absolute;
+  right: 80px;
+}
+.map p img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*//guid*/
+/*footer*/
+footer {
+  height: 340px;
+  padding: 0 20px;
+}
+.footer {
+  width: 100%;
+}
+.foot_top {
+  padding: 20px 0;
+}
+.foot_bottom p {
+  flex-wrap: wrap;
+  letter-spacing: -1px;
+}
+.foot_bottom p span {
+  display: block;
+  line-height: 27px;
+}
+.foot_bottom p small {
+  display: block;
+}

@@ -1,0 +1,235 @@
+/*tb*/
+.tb {
+  display: none;
+}
+.mb {
+  display: block !important;
+}
+header {
+  justify-content: space-between;
+  height: 5.6rem;
+  padding: 0 25px 0 16px;
+}
+header h1 img {
+  display: block;
+  width: 68px;
+  height: 29px;
+}
+/*main*/
+.main_video .video {
+  height: 953px;
+  object-fit: cover;
+}
+.video_txt {
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.video_txt h2 {
+  line-height: 3.5rem;
+  font-size: 2.4rem;
+}
+.video_txt h2 span {
+  display: block;
+}
+.video_txt p:last-child {
+  font-size: 1.4rem;
+}
+.new_content {
+  max-width: 768px;
+  margin: auto;
+  padding: 100px 0 50px;
+}
+.new {
+  width: 100%;
+  gap: 5%;
+  text-align: center;
+}
+.new > li {
+  width: 100%;
+  height: 100%;
+}
+.new > li a {
+  display: block;
+}
+.new > li a::before {
+  content: "";
+  display: block;
+  width: 23.6rem;
+  height: 24.7rem;
+  background: url(../img/20250521112014918.jpg) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.new > li:nth-child(2) a::before {
+  background: url(../img/main_dish.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.new > li:nth-child(3) a::before {
+  background: url(../img/20250502090602271.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.depth li {
+  width: 100%;
+}
+.depth h2 {
+  font-size: 1.6rem;
+  line-height: 3.1rem;
+}
+.depth .date {
+  font-size: 1.2rem;
+}
+/*info_content*/
+
+.info_content {
+  padding: 44px 0;
+  height: 480px;
+}
+.info_content::before {
+  background: url(../img/main-info.110da0f7.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+.info_content > h2 {
+  font-size: 22.08px;
+  height: 51px;
+}
+.info_content > h2 > span {
+  letter-spacing: 1px;
+  font-size: 10.08px;
+}
+.info {
+  flex-wrap: wrap;
+  width: 340px;
+  height: 204px;
+  margin: 50px auto 20px;
+  gap: 0px;
+  font-size: 14.08px;
+}
+.info > li {
+  margin: 0 18px 0 16px;
+  height: auto;
+}
+.info li > a {
+  height: 87px;
+}
+.info li > a::before {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 6px;
+}
+.info .depth li span {
+  font-size: 10.08px;
+}
+.center {
+  width: 264px;
+  height: 93px;
+  font-size: 10.08px;
+}
+.center .tel {
+  font-size: 18.08px;
+}
+/*guid*/
+.guid {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1279px;
+  margin: auto;
+  padding: 55px 0;
+  gap: 50px;
+}
+.guid section {
+  padding: 0 16px;
+  width: 100%;
+  height: 100%;
+}
+.guid section h2 {
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+.notice ul li a {
+  padding: 24px 0;
+}
+.notice .noti_btn {
+  width: 69px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 5px;
+  font-size: 10.08px;
+}
+.notice ul li span:nth-child(2) {
+  font-size: 16px;
+}
+.notice .noti_date {
+  font-size: 12px;
+}
+.more {
+  top: 10px;
+  right: 16px;
+  font-size: 14.08px;
+}
+.map p img {
+  width: 100%;
+  height: auto;
+}
+/*//guid*/
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+.banner li {
+  width: 100%;
+}
+.banner li img {
+  display: block;
+  width: 51rem;
+  height: 21.4rem;
+}
+/*footer*/
+footer {
+  height: 340px;
+  padding: 0 20px;
+}
+.footer {
+  width: 100%;
+}
+.foot_top {
+  height: 64px;
+  justify-content: center;
+}
+.foot_top ul {
+  font-size: 13px;
+}
+.foot_top ul li strong {
+  color: #d12e3a;
+}
+.mb_foot_bottom {
+  height: 172px;
+  margin: auto;
+  padding: 26px 0;
+  text-align: center;
+}
+.mb_foot_bottom .mb_Tel {
+  margin-bottom: 16px;
+  width: 313px;
+  height: 56px;
+  line-height: 56px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+.mb_foot_bottom p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.319rem;
+  padding-bottom: 5px;
+}
+.mb_foot_bottom p small {
+  display: block;
+  margin-top: 16px;
+  font-size: 10.08px;
+  line-height: 11px;
+}
